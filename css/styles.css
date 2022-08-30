@@ -53,14 +53,14 @@ nav{
 }
 
 .title-img{
-    width: 60%;
+    width: 55%;
     /* float: right; */
     transform: rotate(28deg);
 }
 
 
 #features{
-    padding: 7% 10%;
+    padding: 7% 15%;
 }
 
 .iconz {
@@ -83,3 +83,38 @@ h3{
 p{
     color: #787878;
 }
+
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+#testimonials{
+    text-align: center;
+    background-color: #ef8172;
+    color: white;
+}
+
+#testimonials h2 {
+    font-family: "Montserrat";
+    line-height: 1.5;
+    font-size: 3rem;
+}
+
+.testimonial-img{
+    width: 15%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+.press-logo{
+    margin: 20px 20px 50px;
+    width: 15%;
+}
+
