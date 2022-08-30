@@ -118,3 +118,27 @@ p{
     width: 15%;
 }
 
+
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-column{
+    padding: 3% 5%;
+}
+
+.card {
+    font-family: "Montserrat";
+    color: black;
+}
+
+.btn-lg{
+    width: 90%;
+}
+
+.card-price{
+    font-weight: bold;
+    font-size: 4rem;
+    padding-bottom: 3%;
+}
