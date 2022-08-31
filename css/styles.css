@@ -5,6 +5,26 @@ body{
     font-family: "Montserrat";
 }
 
+.topp{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    text-align: center;
+    font-size: 2rem;
+    z-index: 2;
+    text-decoration: none;
+    color: white;
+    background-color: #ff4c68;
+    border-radius: 100%;
+    height: 50px;
+    width: 51px;
+    cursor: pointer;
+}
+.topp:hover{
+    color: #ff4c68;
+    background-color: white;
+}
+
 #title {
     padding-bottom: 11%;
     color: white;
