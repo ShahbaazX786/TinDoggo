@@ -143,8 +143,55 @@ p{
     width: 90%;
 }
 
+.per-month{
+    font-size: 1rem;
+}
+
 .card-price{
     font-weight: bold;
     font-size: 4rem;
     padding-bottom: 3%;
+}
+
+
+
+@media (max-width:992px){
+    #title{
+        text-align: center;
+        /* font-size: 2.5rem; */
+    }
+    
+    .title-img{
+        padding-top: 8%;
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+
+
+/* cta */
+#cta{
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #ff4c68;
+    color: white;
+}
+
+#cta h3{
+    font-size: 3rem;
+    padding-bottom: 5%;
+}
+
+/* footer */
+#footer{
+    text-align: center;
+}
+
+.social-icons{
+    padding: 4% 1%;
+}
+
+.copyright-txt{
+    font-size: 1.1rem;
 }
