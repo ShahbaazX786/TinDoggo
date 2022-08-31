@@ -6,8 +6,10 @@ body{
 }
 
 #title {
+    padding-bottom: 11%;
     color: white;
     background-color: #ff4c68;
+    position: relative;
 }
 
 .container{
@@ -53,14 +55,18 @@ nav{
 }
 
 .title-img{
-    width: 55%;
-    /* float: right; */
-    transform: rotate(28deg);
+    height: fit-content;
+    width: fit-content;
+    transform: rotate(25deg);
+    position: absolute;
 }
 
 
 #features{
-    padding: 7% 15%;
+    padding: 10% 15%;
+    background-color: white;
+    position: relative;
+    
 }
 
 .iconz {
@@ -133,7 +139,7 @@ p{
     color: black;
 }
 
-.btn-lg{
+.pricing-btn{
     width: 90%;
 }
 
